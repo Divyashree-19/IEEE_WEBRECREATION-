@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            background-color: #4a8f9c;
+        }
+        #container{
+        display:flex;
+        
+  padding:0;
+  margin: 0;
+  
+ 
+  align-items: center;
+  justify-content: center;
+
+    }
+    #a{
+        margin-top: 200px;
+      text-align: center;
+      background-color:#5ba8b8 ;
+       border-radius: 10px;
+       height: 300px;
+       width: 320px;
+    }
+    input[type=text]{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #fbfbfb;
+    }
+    
+    input[type=password]{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #fbfbfb;
+    }
+    ::placeholder{
+        color:#fbfbfb
+    }
+    
+.button {
+  display: inline-block;
+  
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:rgb(91, 114, 203);
+  border: none;
+  border-radius: 5px;
+  width:250px;
+  height:25px;
+ 
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(61, 49, 152, 0.24), 0 17px 50px 0 rgba(80, 44, 210, 0.19);
+}
+    </style>
+    
+  
+</head>
+<body>
+    <div id="container">
+        <div id="a">
+        <h3 style="color:white">Login</h4>
+        <input type="text" placeholder="Username" >
+        <br>
+    <br>
+        <input type="password" placeholder="password" >
+        <br>
+        <br>
+        <br>
+        <form action="http://127.0.0.1:5500/second.html#">
+        <button class="button" >Submit</button>
+        
+    </form><br>
+        <br>
+        
+        <a href="#" style="color:#fbfbfb">Forgot password?</a>
+    </div>
+    </div>
+</body>
+</html>
